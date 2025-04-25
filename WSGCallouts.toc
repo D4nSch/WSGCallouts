@@ -1,0 +1,10 @@
+## Interface: 11200
+## Title: |cffFF5733WSGCallouts|r |cffffffffv1.0|r - Urtica
+## Notes: EFC callouts for WSG (inspired by me0wg4ming)
+## Author: Urtica, 2025
+## Version: 1.0
+## SavedVariablesPerCharacter: QuickCallDB
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## Category: PvP
+WSGCallouts.lua

@@ -132,10 +132,10 @@ local function HandleCall(faction, position)
     else
         if faction ~= nil then
             --DEFAULT_CHAT_FRAME:AddMessage("Enemy flag carry (EFC) position: >>> "..tostring(faction).." "..pos.." <<<")
-            SendChatMessage("Enemy flag carry (EFC) position: >>> "..tostring(faction).." "..pos.." <<<", "BATTLEGROUND")
+            SendChatMessage("EFC position: >>> "..tostring(faction).." "..pos.." <<<", "BATTLEGROUND")
         else
             --DEFAULT_CHAT_FRAME:AddMessage("Enemy flag carry (EFC) position: >>> "..pos.." <<<")
-            SendChatMessage("Enemy flag carry (EFC) position: >>> "..pos.." <<<", "BATTLEGROUND")
+            SendChatMessage("EFC position: >>> "..pos.." <<<", "BATTLEGROUND")
         end
     end
 end
